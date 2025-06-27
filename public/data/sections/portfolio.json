@@ -1,0 +1,488 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/fatihmuflih/restful-api"}
+                    ],
+
+                    "locales": {
+                        "en": {
+                            "title": "RESTful API",
+                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b> and <b>Hapi</b> framework, designed for high-performance data processing and real-time event handling.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "es": {
+                            "title": "RESTful API",
+                            "text": "Un backend <b>RESTful API</b> creado con <b>Node.js</b> y el marco <b>Hapi</b>, diseñado para el procesamiento de datos de alto rendimiento y el manejo de eventos en tiempo real.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "fr": {
+                            "title": "RESTful API",
+                            "text": "Un backend <b>API RESTful</b> construit avec le framework <b>Node.js</b> et <b>Hapi</b>, conçu pour le traitement des données hautes performances et la gestion des événements en temps réel.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "ko": {
+                            "title": "RESTful API",
+                            "text": "고성능 데이터 처리 및 실시간 이벤트 처리를 위해 설계된 <b>Node.js</b> 및 <b>Hapi</b> 프레임워크로 구축된 <b>RESTful API</b> 백엔드입니다.",
+                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/fatihmuflih/job-vacancy-app"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://jobnest-site.vercel.app/"}
+                    ],
+
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-9.png",
+                                "images/pictures/project-screenshot-10.png",
+                                "images/pictures/project-screenshot-11.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Job Vacancy",
+                            "text": "A fully-featured job vacancy app built with <b>React</b> and <b>Tailwind CSS</b>, providing feature <b>Create</b>, <b>Read</b>, <b>Update</b> and <b>Delete</b>.",
+                            "tags": ["React", "Job", "Hiring"]
+                        },
+                        "es": {
+                            "title": "Job Vacancy",
+                            "text": "Una aplicación de ofertas de empleo con todas las funciones creada con <b>React</b> y <b>Tailwind CSS</b>, que proporciona las funciones <b>Crear</b>, <b>Leer</b>, <b >Actualizar</b> y <b>Eliminar</b>.",
+                            "tags": ["React", "Trabajo", "Contratación"]
+                        },
+                        "fr": {
+                            "title": "Job Vacancy",
+                            "text": "Une application d'offres d'emploi complète conçue avec <b>React</b> et <b>Tailwind CSS</b>, offrant les fonctionnalités <b>Créer</b>, <b>Lire</b>, <b >Mettre à jour</b> et <b>Supprimer</b>.",
+                            "tags": ["React", "Emploi", "Recruter"]
+                        },
+                        "ko": {
+                            "title": "Job Vacancy",
+                            "text": "<b>React</b> 및 <b>Tailwind CSS</b>로 구축되어 <b>만들기</b>, <b>읽기</b>, <b 기능을 제공하는 모든 기능을 갖춘 구인 앱입니다. >업데이트</b> 및 <b>삭제</b>.",
+                            "tags": ["React", "일", "채용"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/fatihmuflih/react-corporate-website"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://react-corporate-website.vercel.app/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-12.png",
+                                "images/pictures/project-screenshot-13.png",
+                                "images/pictures/project-screenshot-14.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "React Corporate",
+                            "text": "A corporate app developed with <b>React</b> and <b>Bootstrap</b>, displaying services, works, teams, testimonials, pricing and blogs for clients.",
+                            "tags": ["React", "Corporate", "Work"]
+                        },
+                        "es": {
+                            "title": "React Corporate",
+                            "text": "Una aplicación corporativa desarrollada con <b>React</b> y <b>Bootstrap</b>, que muestra servicios, trabajos, equipos, testimonios, precios y blogs para clientes.",
+                            "tags": ["React", "Corporativo", "Trabajo"]
+                        },
+                        "fr": {
+                            "title": "React Corporate",
+                            "text": "Une application d'entreprise développée avec <b>React</b> et <b>Bootstrap</b>, affichant les services, les travaux, les équipes, les témoignages, les tarifs et les blogs pour les clients.",
+                            "tags": ["React", "Entreprise", "Travail"]
+                        },
+                        "ko": {
+                            "title": "React Corporate",
+                            "text": "<b>React</b> 및 <b>Bootstrap</b>을 사용하여 개발된 기업 앱으로 고객을 위한 서비스, 작업, 팀, 평가, 가격 및 블로그를 표시합니다.",
+                            "tags": ["React", "기업", "일"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-15.png",
+                                "images/pictures/project-screenshot-16.png",
+                                "images/pictures/project-screenshot-17.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Personal Portfolio",
+                            "text": "A sleek and simple portfolio developed with <b>ReactJS</b> and <b>Bootstrap 5</b>, lightweight and fully responsive, also adapts perfectly to mobile screens.",
+                            "tags": ["React", "Simple", "Portfolio"]
+                        },
+                        "es": {
+                            "title": "Personal Portfolio",
+                            "text": "Un portafolio elegante y simple desarrollado con <b>ReactJS</b> y <b>Bootstrap 5</b>, liviano y totalmente responsivo, también se adapta perfectamente a las pantallas de los móviles.",
+                            "tags": ["React", "Simple", "Portafolio"]
+                        },
+                        "fr": {
+                            "title": "Personal Portfolio",
+                            "text": "Un portefeuille élégant et simple développé avec <b>ReactJS</b> et <b>Bootstrap 5</b>, léger et entièrement réactif, s'adapte également parfaitement aux écrans mobiles.",
+                            "tags": ["React", "Simple", "Portfolio"]
+                        },
+                        "ko": {
+                            "title": "Personal Portfolio",
+                            "text": "<b>ReactJS</b> 및 <b>Bootstrap 5</b>로 개발된 세련되고 단순한 포트폴리오는 가볍고 완벽하게 반응하며 모바일 화면에도 완벽하게 적응합니다.",
+                            "tags": ["React", "단순", "포트폴리오"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/fatihmuflih/game-list-app"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Game List",
+                            "text": "A game list app developed with <b>React</b> and <b>Tailwind CSS</b>, showcasing game list and data table, there are features for <b>Create</b>, <b>Read</b>, <b>Update</b> and <b>Delete</b>.",
+                            "tags": ["React", "Game", "Data"]
+                        },
+                        "es": {
+                            "title": "Game List",
+                            "text": "Una aplicación de lista de juegos desarrollada con <b>React</b> y <b>Tailwind CSS</b>, que muestra la lista de juegos y la tabla de datos, hay funciones para <b>Crear</b>, <b>Leer< /b>, <b>Actualizar</b> y <b>Eliminar</b>.",
+                            "tags": ["React", "Juego", "Datos"]
+                        },
+                        "fr": {
+                            "title": "Game List",
+                            "text": "Une application de liste de jeux développée avec <b>React</b> et <b>Tailwind CSS</b>, présentant une liste de jeux et un tableau de données. Il existe des fonctionnalités pour <b>Créer</b>, <b>Lire< /b>, <b>Mettre à jour</b> et <b>Supprimer</b>.",
+                            "tags": ["React", "Jeu", "Données"]
+                        },
+                        "ko": {
+                            "title": "Game List",
+                            "text": "<b>React</b> 및 <b>Tailwind CSS</b>로 개발된 게임 목록 앱으로 게임 목록과 데이터 테이블을 보여주며 <b>만들기</b>, <b>읽기< 기능이 있습니다. /b>, <b>업데이트</b> 및 <b>삭제</b>.",
+                            "tags": ["React", "게임", "데이터"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://github.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-18.png",
+                                "images/pictures/project-screenshot-19.png",
+                                "images/pictures/project-screenshot-20.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Animated Portfolio",
+                            "text": "A responsive portfolio website with <b>animation</b> developed using <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>, showcasing home, about, education, skills and contact content.",
+                            "tags": ["JavaScript", "Animation", "Portfolio"]
+                        },
+                        "es": {
+                            "title": "Animated Portfolio",
+                            "text": "Un sitio web responsivo con <b>animación</b> desarrollado usando <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>, que muestra el hogar, la educación y las habilidades. y contenido de contacto.",
+                            "tags": ["JavaScript", "Animación", "Portafolio"]
+                        },
+                        "fr": {
+                            "title": "Animated Portfolio",
+                            "text": "Un site Web de portfolio réactif avec <b>animation</b> développée en utilisant <b>HTML</b>, <b>CSS</b> et <b>JavaScript</b>, présentant l'accueil, les informations, l'éducation et les compétences. et contacter le contenu.",
+                            "tags": ["JavaScript", "Animation", "Portfolio"]
+                        },
+                        "ko": {
+                            "title": "Animated Portfolio",
+                            "text": "<b>HTML</b>, <b>CSS</b> 및 <b>JavaScript</b>를 사용하여 개발된 <b>애니메이션</b>을 갖춘 반응형 포트폴리오 웹사이트로 가정, 정보, 교육, 기술을 보여줍니다. 및 연락처 내용.",
+                            "tags": ["JavaScript", "애니메이션", "포트폴리오"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-6.png",
+                        "fa": "",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/fatihmuflih/awesome-portfolio-website"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://fatihmuflih.github.io/awesome-portfolio-website/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-21.png",
+                                "images/pictures/project-screenshot-22.png",
+                                "images/pictures/project-screenshot-23.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Awesome Portfolio",
+                            "text": "A awesome portfolio website built with <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>, showcasing home, about, services, portfolio and contact content, also responsive for any devices.",
+                            "tags": ["JavaScript", "Awesome", "Portfolio"]
+                        },
+                        "es": {
+                            "title": "Awesome Portfolio",
+                            "text": "Un impresionante sitio web de portafolio creado con <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>, que muestra contenido de inicio, acerca de, servicios, portafolio y contactos, y que también responde a cualquier dispositivo.",
+                            "tags": ["JavaScript", "Impresionante", "Portafolio"]
+                        },
+                        "fr": {
+                            "title": "Awesome Portfolio",
+                            "text": "Un superbe site Web de portfolio construit avec <b>HTML</b>, <b>CSS</b> et <b>JavaScript</b>, présentant le contenu de l'accueil, à propos, des services, du portfolio et des contacts, également réactif pour tous les appareils.",
+                            "tags": ["JavaScript", "Génial", "Portfolio"]
+                        },
+                        "ko": {
+                            "title": "Awesome Portfolio",
+                            "text": "<b>HTML</b>, <b>CSS</b> 및 <b>JavaScript</b>로 구축된 멋진 포트폴리오 웹사이트는 홈, 정보, 서비스, 포트폴리오 및 연락처 콘텐츠를 보여주며 모든 기기에서 반응합니다.",
+                            "tags": ["JavaScript", "멋져요", "포트폴리오"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/fatihmuflih/campus-website"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://fatihmuflih.github.io/campus-website/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-24.png",
+                                "images/pictures/project-screenshot-25.png",
+                                "images/pictures/project-screenshot-26.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Campus",
+                            "text": "A <b>multipage</b> campus website including home, about, course, blog and contact built with <b>HTML</b> and <b>CSS</b>, fully responsive and Adapts perfectly to mobile screens.",
+                            "tags": ["HTML & CSS", "Multipage", "Campus"]
+                        },
+                        "es": {
+                            "title": "Campus",
+                            "text": "Un sitio web del campus <b>varias páginas</b> que incluye inicio, información sobre, cursos, blog y contactos creado con <b>HTML</b> y <b>CSS</b>, totalmente responsivo y se adapta perfectamente a dispositivos móviles. pantallas.",
+                            "tags": ["HTML y CSS", "Varias páginas", "Campus"]
+                        },
+                        "fr": {
+                            "title": "Campus",
+                            "text": "Un site Web de campus <b>multipage</b> comprenant l'accueil, à propos, les cours, le blog et les contacts, construit avec <b>HTML</b> et <b>CSS</b>, entièrement réactif et s'adapte parfaitement aux mobiles. écrans.",
+                            "tags": ["HTML & CSS", "Multipage", "Campus"]
+                        },
+                        "ko": {
+                            "title": "Campus",
+                            "text": "<b>HTML</b> 및 <b>CSS</b>로 구축된 홈, 정보, 코스, 블로그 및 연락처를 포함하는 <b>다중 페이지</b> 캠퍼스 웹사이트로 완벽하게 반응하고 모바일에 완벽하게 적응합니다. 스크린.",
+                            "tags": ["HTML & CSS", "다중 페이지", "캠퍼스"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "",
+                        "fa": "fa-solid fa-truck-fast",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/fatihmuflih/corporate-website"},
+                        {"faIcon": "fa-solid fa-link", "href": "https://fatihmuflih.github.io/corporate-website/"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/project-screenshot-27.png"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Corporate",
+                            "text": "A <b>two column layout</b> corporate website are created by using plugins on <b>HTML</b> and inserting elements using <b>CSS</b> for final assignment of the pre-employment card program.",
+                            "tags": ["HTML & CSS", "Layout", "Corporate"]
+                        },
+                        "es": {
+                            "title": "Corporate",
+                            "text": "Se crea un sitio web corporativo <b>diseño de dos columnas</b> utilizando complementos en <b>HTML</b> e insertando elementos usando <b>CSS</b> para la asignación final del programa de tarjeta preempleo.",
+                            "tags": ["HTML y CSS", "Diseño", "Corporativo"]
+                        },
+                        "fr": {
+                            "title": "Corporate",
+                            "text": "Un site Web d'entreprise <b>à deux colonnes</b> est créé en utilisant des plugins sur <b>HTML</b> et en insérant des éléments à l'aide de <b>CSS</b> pour l'attribution finale du programme de carte de pré-emploi.",
+                            "tags": ["HTML & CSS", "Mise en page", "Entreprise"]
+                        },
+                        "ko": {
+                            "title": "Corporate",
+                            "text": "<b>2열 레이아웃</b> 기업 웹사이트는 <b>HTML</b>에 플러그인을 사용하고 채용 전 카드 프로그램의 최종 할당을 위해 <b>CSS</b>를 사용하여 요소를 삽입하여 생성됩니다.",
+                            "tags": ["HTML & CSS", "레이아웃", "회사"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

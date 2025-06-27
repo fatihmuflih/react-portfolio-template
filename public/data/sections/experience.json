@@ -1,0 +1,150 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of",
+            "title_long": "My **Experience**"
+        },
+
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de",
+            "title_long": "Mi **Experiencia**"
+        },
+
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de",
+            "title_long": "Mon **Expérience**"
+        },
+
+        "ko": {
+            "title": "경험",
+            "title_long_prefix": "요약",
+            "title_long": "내 **경험**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-13.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "11/01/2019",
+                        "end": "12/30/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Hardware** Distribution",
+                            "info": "Hi Tech Mall Surabaya",
+                            "text": "During my internship at Hi Tech Mall Surabaya, I was responsible for pick up goods from the store and pack hardware according to customer orders, ensure goods are packaged safely, and prepare delivery documents, such as invoices and delivery orders.",
+                            "tags": ["Internship ", "Hardware Packaging", "Delivery Orders"]
+                        },
+                        "es": {
+                            "title": "Distribución de **Hardware**",
+                            "info": "Hi Tech Mall Surabaya",
+                            "text": "Durante mi pasantía en Hi Tech Mall Surabaya, fui responsable de recoger productos de la tienda y empacar el hardware de acuerdo con los pedidos de los clientes, garantizar que los productos estuvieran empaquetados de manera segura y preparar los documentos de entrega, como facturas y órdenes de entrega.",
+                            "tags": ["Prácticas", "Embalaje de Ferretería", "Órdenes de Entrega"]
+                        },
+                        "fr": {
+                            "title": "Répartition du **Matériel**",
+                            "info": "Hi Tech Mall Surabaya",
+                            "text": "Au cours de mon stage au Hi Tech Mall Surabaya, j'étais chargé de récupérer les marchandises du magasin et d'emballer le matériel selon les commandes des clients, de m'assurer que les marchandises sont emballées en toute sécurité et de préparer les documents de livraison, tels que les factures et les bons de livraison.",
+                            "tags": ["Stage", "Emballage de matériel", "Livraison de commandes"]
+                        },
+                        "ko": {
+                            "title": "**하드웨어** 배포",
+                            "info": "하이테크 몰 수라바야",
+                            "text": "수라바야 하이테크 몰에서 인턴으로 일하는 동안, 저는 매장에서 상품을 픽업하고 고객 주문에 따라 하드웨어를 포장하고, 상품이 안전하게 포장되었는지 확인하고, 송장과 배송 주문서와 같은 배송 문서를 준비하는 업무를 담당했습니다.",
+                            "tags": ["인턴십", "하드웨어 패키징", "배송 주문"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-12.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2020",
+                        "end": "02/28/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Information Technology** Intern",
+                            "info": "National Narcotics Agency of East Java Province",
+                            "text": "As an Information Technology Intern at National Narcotics Agency of East Java Province, I provided technical assistance to staff, resolving hardware and software issues. This experience enhanced my problem-solving skills and ability to work under pressure.",
+                            "tags": ["Internship ", "Problem Solving", "Technical Skills"]
+                        },
+                        "es": {
+                            "title": "Pasante de **Tecnología de la Información**",
+                            "info": "Agencia Nacional de Estupefacientes de la Provincia de Java Oriental",
+                            "text": "Como pasante de tecnología de la información en la Agencia Nacional de Estupefacientes de la provincia de Java Oriental, presté asistencia técnica al personal y resolví problemas de hardware y software. Esta experiencia mejoró mis habilidades para resolver problemas y mi capacidad para trabajar bajo presión.",
+                            "tags": ["Pasantía", "Resolución de Problemas", "Habilidades Técnicas"]
+                        },
+                        "fr": {
+                            "title": "Stagiaire en **Technologies de l'Information**",
+                            "info": "Agence Nationale des Stupéfiants de la Province de Java-Est",
+                            "text": "En tant que stagiaire en informatique à l'Agence nationale des stupéfiants de la province de Java oriental, j'ai fourni une assistance technique au personnel, en résolvant des problèmes de matériel et de logiciel. Cette expérience a amélioré mes compétences en résolution de problèmes et ma capacité à travailler sous pression.",
+                            "tags": ["Stage", "Résolution de Problèmes", "Compétences Techniques"]
+                        },
+                        "ko": {
+                            "title": "**정보기술** 인턴",
+                            "info": "동자바주 국립 마약 관리국",
+                            "text": "동자바 주 국립 마약청의 정보 기술 인턴으로서, 저는 직원들에게 기술 지원을 제공하고 하드웨어와 소프트웨어 문제를 해결했습니다. 이 경험은 제 문제 해결 능력과 압박 속에서 일하는 능력을 강화했습니다.",
+                            "tags": ["인턴십", "문제 해결", "기술 능력"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-11.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/15/2024",
+                        "end": "08/09/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**React JS** Bootcamp",
+                            "info": "Sanbercode",
+                            "text": "I participated in the Sanbercode Bootcamp where I specialized in React JS. During this program, I developed a deep understanding of component-based architecture, state management, and React hooks.",
+                            "tags": ["Bootcamp", "React JS", "Web Development"]
+                        },
+                        "es": {
+                            "title": "Campamento Intensivo de **React JS**",
+                            "info": "Sanbercode",
+                            "text": "Participé en el Sanbercode Bootcamp, donde me especialicé en React JS. Durante este programa, desarrollé un profundo conocimiento de la arquitectura basada en componentes, la gestión de estados y los hooks de React.",
+                            "tags": ["Campamento de Entrenamiento", "React JS", "Desarrollo Web"]
+                        },
+                        "fr": {
+                            "title": "Camp d'Entraînement **React JS**",
+                            "info": "Sanbercode",
+                            "text": "J'ai participé au Bootcamp Sanbercode où je me suis spécialisé en React JS. Au cours de ce programme, j'ai développé une compréhension approfondie de l'architecture basée sur les composants, de la gestion des états et des hooks React.",
+                            "tags": ["Bootcamp", "React JS", "Développement Web"]
+                        },
+                        "ko": {
+                            "title": "**React JS** 부트캠프",
+                            "info": "샌버코드",
+                            "text": "저는 React JS를 전문으로 하는 Sanbercode Bootcamp에 참여했습니다. 이 프로그램을 통해 저는 컴포넌트 기반 아키텍처, 상태 관리, React hooks에 대한 깊은 이해를 개발했습니다.",
+                            "tags": ["부트캠프", "React JS", "웹 개발"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

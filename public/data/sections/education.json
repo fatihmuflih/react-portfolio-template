@@ -1,0 +1,152 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-10.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2015",
+                        "end": "06/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "State **Junior High School** 53",
+                            "info": "Surabaya",
+                            "text": "During my time at State Junior High School 53 Surabaya, where I developed a strong foundation in mathematics, science, and language arts. This period was crucial in shaping my interest in technology and problem-solving.",
+                            "tags": ["Mathematics", "Science", "Language Arts"]
+                        },
+                        "es": {
+                            "title": "**Escuela Secundaria Estatal** 53",
+                            "info": "Surabaya",
+                            "text": "Durante mi estancia en la escuela secundaria estatal 53 de Surabaya, adquirí una sólida base en matemáticas, ciencias y lengua. Este período fue crucial para dar forma a mi interés por la tecnología y la resolución de problemas.",
+                            "tags": ["Matemáticas", "Ciencias", "Artes del Lenguaje"]
+                        },
+                        "fr": {
+                            "title": "État **Collège** 53",
+                            "info": "Surabaya",
+                            "text": "Durant mes années au collège d'État 53 de Surabaya, j'ai acquis de solides bases en mathématiques, en sciences et en arts du langage. Cette période a été cruciale pour développer mon intérêt pour la technologie et la résolution de problèmes.",
+                            "tags": ["Mathématiques", "Sciences", "Arts du Langage"]
+                        },
+                        "ko": {
+                            "title": "주립 **중학교** 53",
+                            "info": "수라바야",
+                            "text": "저는 수라바야 53 주립 중학교에 재학하는 동안 수학, 과학, 언어 예술에 대한 강력한 기초를 쌓았습니다. 이 기간은 기술과 문제 해결에 대한 관심을 형성하는 데 결정적인 시기였습니다.",
+                            "tags": ["수학", "과학", "언어 예술"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-9.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2018",
+                        "end": "06/01/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Multimedia** Department",
+                            "info": "Wachid Hasyim 2 Vocational School Surabaya",
+                            "text": "<p>At Wachid Hasyim 2 Vocational School Surabaya, I specialized in multimedia studies, learning about graphic design, video editing, animation, and basic programming. My coursework included practical projects that enhanced my technical skills and creativity.</p>",
+                            "tags": ["Graphic Design", "Video Editing", "Animation", "Basic Programming"]
+                        },
+                        "es": {
+                            "title": "Departamento de **Multimedia**",
+                            "info": "Escuela Vocacional Wachid Hasyim 2 Surabaya",
+                            "text": "<p>En la escuela vocacional Wachid Hasyim 2 de Surabaya, me especialicé en estudios multimedia y aprendí sobre diseño gráfico, edición de video, animación y programación básica. Mi trabajo académico incluía proyectos prácticos que mejoraron mis habilidades técnicas y mi creatividad.</p>",
+                            "tags": ["Diseño Gráfico", "Edición de Video", "Animación", "Programación Básica"]
+                        },
+                        "fr": {
+                            "title": "Département **Multimédia**",
+                            "info": "École Professionnelle Wachid Hasyim 2 Surabaya",
+                            "text": "<p>À l'école professionnelle Wachid Hasyim 2 de Surabaya, je me suis spécialisé dans les études multimédias, en apprenant le graphisme, le montage vidéo, l'animation et la programmation de base. Mes cours comprenaient des projets pratiques qui ont amélioré mes compétences techniques et ma créativité.</p>",
+                            "tags": ["Conception Graphique", "Montage Vidéo", "Animation", "Programmation de Base"]
+                        },
+                        "ko": {
+                            "title": "**멀티미디어** 부서",
+                            "info": "Wachid Hasyim 2 직업 학교 수라바야",
+                            "text": "<p>수라바야 와치드 하심 2 직업 학교에서 저는 멀티미디어 연구를 전문으로 했고, 그래픽 디자인, 비디오 편집, 애니메이션, 기본 프로그래밍에 대해 배웠습니다. 제 과정에는 기술적 기술과 창의성을 강화하는 실무 프로젝트가 포함되었습니다.</p>",
+                            "tags": ["그래픽 디자인", "비디오 편집", "애니메이션", "기본 프로그래밍"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-8.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "08/01/2023",
+                        "end": "06/01/2026"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**D3** in Informatics Engineering",
+                            "info": "Electronics Engineering Polytechnic Institute of Surabaya",
+                            "text": "<p>I completed a diploma in Informatics Engineering at Electronics Engineering Polytechnic Institute of Surabaya. My courses cover advanced programming, database, and web development. My studies are focused on gaining practical experience and industry-relevant skills.</p>",
+                            "tags": ["Advanced Programming", "Database", "Web Development"]
+                        },
+                        "es": {
+                            "title": "**D3** en Ingeniería Informática",
+                            "info": "Instituto Politécnico de Ingeniería Electrónica de Surabaya",
+                            "text": "<p>Completé un diploma en Ingeniería Informática en el Instituto Politécnico de Ingeniería Electrónica de Surabaya. Mis cursos abarcan programación avanzada, bases de datos y desarrollo web. Mis estudios se centran en adquirir experiencia práctica y habilidades relevantes para la industria.</p>",
+                            "tags": ["Programación Avanzada", "Base de Datos", "Desarrollo Web"]
+                        },
+                        "fr": {
+                            "title": "**D3** en Ingénierie Informatique",
+                            "info": "Institut Polytechnique d'Ingénierie Electronique de Surabaya",
+                            "text": "<p>J'ai obtenu un diplôme en ingénierie informatique à l'Institut polytechnique d'ingénierie électronique de Surabaya. Mes cours couvrent la programmation avancée, les bases de données et le développement Web. Mes études sont axées sur l'acquisition d'une expérience pratique et de compétences pertinentes pour l'industrie.</p>",
+                            "tags": ["Programmation Avancée", "Base de Données", "Développement Web"]
+                        },
+                        "ko": {
+                            "title": "**D3** 정보공학",
+                            "info": "수라바야 전자공학 폴리테크닉 연구소",
+                            "text": "<p>저는 수라바야 전자공학 폴리테크닉 연구소에서 정보공학 학위를 취득했습니다. 제 과정은 고급 프로그래밍, 데이터베이스, 웹 개발을 다룹니다. 제 연구는 실무 경험과 산업 관련 기술을 습득하는 데 중점을 두고 있습니다.</p>",
+                            "tags": ["고급 프로그래밍", "데이터베이스", "웹 개발"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
